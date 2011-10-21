@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Uri:</b>
+  <%= @mirror.uri %>
+</p>
+
+<p>
+  <b>Slug:</b>
+  <%= @mirror.slug %>
+</p>
+
+
+<%= link_to 'Edit', edit_mirror_path(@mirror) %> |
+<%= link_to 'Back', mirrors_path %>

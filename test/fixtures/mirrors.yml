@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  uri: MyString
+  slug: MyString
+
+two:
+  uri: MyString
+  slug: MyString
